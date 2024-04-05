@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+header {
+     background-color: #ff7170;  /* Dark brown background for header */
+    color: #ffffd4; /* Light yellow text for header */
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+        display: inline-block;
+    margin-right: 50px;
+	font-size: larger;
+}
+
+/* Updated menu text color */
+nav a {
+    text-decoration: none;
+    color: #030203;/* Light yellow text color for menu */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div,
+.right-div {
+    width: 50%; /* Set width to 50% for each div */
+ /* Ensure padding is included in width */
+}
+
+.left-div {
+    /*background-color: #f0f0f0; /* Light gray background for left div */
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.233),rgba(238, 130, 238, 0.457));
+
+}
+
+.right-div {
+    background-color: #ddd; /* Light gray background for right div */
+}
+
+.custom-button {
+    background-color: #ff7170; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 50px; /* Padding around the text */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Indicate clickable behavior */
+    margin-left: 70px;
+}
+
+/* Optional hover effect to change button color on hover */
+.custom-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+
+.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.233),rgba(238, 130, 238, 0.457));
+    margin-top: 1%;
+}
+.img{
+    width: 10%;
+    height:10%;
+    padding:1px;
+    padding-left: 200px;
+   
+}
+.content-sec{
+	background-image: linear-gradient(to right, rgba(255, 255, 0, 0.233),rgba(238, 130, 238, 0.457));
+}
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Dark text color for content */
+}
+
+.content p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #666; /* Lighter text color for content body */
+}
+
+.left-div,
+.right-div {
+    width: 50%; /* Set width to 50% for each div */
+ /* Ensure padding is included in width */
+}
+.left-div{
+
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.custom-button {
+    background-color: #ff7170; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px 60px; /* Padding around the text */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Indicate clickable behavior */
+}
+
+/* Optional hover effect to change button color on hover */
+.custom-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+}
+
+
+/* Responsive Styles (add more as needed) */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px; /* Add space between logo and menu on small screens */
+    }
+
+    nav li {
+        margin-right: 0; /* Remove margin between menu items on small screens */
+        margin-bottom: 10px; /* Add space between menu items on small screens */
+    }
+}
